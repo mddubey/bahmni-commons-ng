@@ -4,7 +4,7 @@ describe("init", function () {
     var bahmniCookieStore;
 
     beforeEach(function () {
-        angular.mock.module('bahmni.common.util');
+        module('bahmni.common.util');
         inject(function ($bahmniCookieStore) {
             bahmniCookieStore = $bahmniCookieStore;
         });

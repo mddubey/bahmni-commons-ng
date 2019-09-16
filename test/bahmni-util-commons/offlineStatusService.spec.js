@@ -4,7 +4,7 @@ describe("offlineStatusService", function () {
     appService = jasmine.createSpyObj('appService', ['getAppDescriptor']);
     interval = jasmine.createSpy('$interval');
 
-    beforeEach(angular.mock.module('bahmni.common.util'));
+    beforeEach(module('bahmni.common.util'));
 
     beforeEach(function () {
         appService.getAppDescriptor.and.returnValue({
@@ -17,7 +17,7 @@ describe("offlineStatusService", function () {
                 }
             }
         });
-        angular.mock.module(function ($provide) {
+        module(function ($provide) {
             $provide.value('appService', appService);
             $provide.value('$interval', interval);
         });
