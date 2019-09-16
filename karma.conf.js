@@ -25,6 +25,7 @@ module.exports = (config) => {
             {pattern: 'dist/bahmni-util-commons.js', watched: false},
             {pattern: 'dist/bahmni-model-commons.js', watched: false},
             {pattern: 'dist/bahmni-auth-commons.js', watched: false},
+            {pattern: 'dist/bahmni-appframework-commons.js', watched: false},
             {pattern: 'dist/bahmni-patient-commons.js', watched: false},
             {pattern: 'test/**/*spec.js', watched: false},
         ],
