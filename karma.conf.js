@@ -23,6 +23,7 @@ module.exports = (config) => {
             {pattern: 'test/init-constants.js', watched: false},
 
             {pattern: 'dist/bahmni-util-commons.js', watched: false},
+            {pattern: 'dist/bahmni-model-commons.js', watched: false},
             {pattern: 'dist/bahmni-patient-commons.js', watched: false},
             {pattern: 'test/**/*spec.js', watched: false},
         ],

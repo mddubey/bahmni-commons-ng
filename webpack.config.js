@@ -3,6 +3,7 @@ var path = require('path');
 module.exports = {
     entry: {
         "bahmni-util-commons": path.join(__dirname, 'src', 'bahmni-util-commons/init.js'),
+        "bahmni-model-commons": path.join(__dirname, 'src', 'bahmni-model-commons/init.js'),
         "bahmni-patient-commons": path.join(__dirname, 'src', 'bahmni-patient-commons/init.js'),
     },
     output: {
