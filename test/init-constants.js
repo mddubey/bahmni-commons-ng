@@ -3,7 +3,9 @@
 
 var Bahmni = Bahmni || {};
 Bahmni.Common = Bahmni.Common || {};
+
 Bahmni.Common.Constants = Bahmni.Common.Constants || {};
+Bahmni.Common.Constants.RESTWS_V1 = '/openmrs/ws/rest/v1';
 
 Bahmni.Registration = Bahmni.Registration || {};
 

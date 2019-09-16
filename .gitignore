@@ -2,3 +2,4 @@ node_modules
 dist
 .idea
 TESTS-Firefox*
+test-results.xml

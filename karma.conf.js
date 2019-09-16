@@ -18,8 +18,12 @@ module.exports = (config) => {
             {pattern: 'node_modules/jquery/jquery.js', watched: false},
             {pattern: 'node_modules/offline/offline.js', watched: false},
             {pattern: 'node_modules/lodash/lodash.js', watched: false},
+            {pattern: 'node_modules/@uirouter/angularjs/release/angular-ui-router.js', watched: false},
+            {pattern: 'node_modules/q/q.js', watched: false},
+            {pattern: 'node_modules/jasmine-jquery/lib/jasmine-jquery.js', watched: false},
 
             {pattern: 'test/lib/**/*.js', watched: false},
+            {pattern: 'test/support/*.js', watched: false},
             {pattern: 'test/init-constants.js', watched: false},
 
             {pattern: 'dist/bahmni-util-commons.js', watched: false},
