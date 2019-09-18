@@ -36,6 +36,9 @@
     "moment": "2.18.1",
     "jquery": "1.9.1",
     "@uirouter/angularjs": "0.2.18",
+    "ng-clip": "0.2.5",
+    "zeroclipboard": "~2.1.0",
+    "angular-translate": "2.7.2",
     "offline": "github:HubSpot/offline#v0.7.14"
   }
 }

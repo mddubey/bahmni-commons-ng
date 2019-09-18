@@ -8,6 +8,7 @@ module.exports = {
         "bahmni-appframework-commons": path.join(__dirname, 'src', 'bahmni-appframework-commons/init.js'),
         "bahmni-displaycontrols-commons": path.join(__dirname, 'src', 'bahmni-displaycontrols-commons/init.js'),
         "bahmni-config-commons": path.join(__dirname, 'src', 'bahmni-config-commons/init.js'),
+        "bahmni-uihelper-commons": path.join(__dirname, 'src', 'bahmni-uihelper-commons/init.js'),
         "bahmni-patient-commons": path.join(__dirname, 'src', 'bahmni-patient-commons/init.js'),
     },
     output: {

@@ -20,6 +20,9 @@ module.exports = (config) => {
             {pattern: 'node_modules/lodash/lodash.js', watched: false},
             {pattern: 'node_modules/@uirouter/angularjs/release/angular-ui-router.js', watched: false},
             {pattern: 'node_modules/q/q.js', watched: false},
+            {pattern: 'node_modules/ng-clip/src/ngClip.js', watched: false},
+            {pattern: 'node_modules/zeroclipboard/dist/ZeroClipboard.js', watched: false},
+            {pattern: 'node_modules/angular-translate/dist/angular-translate.js', watched: false},
             {pattern: 'node_modules/jasmine-jquery/lib/jasmine-jquery.js', watched: false},
 
             {pattern: 'test/lib/**/*.js', watched: false},
@@ -33,6 +36,7 @@ module.exports = (config) => {
             {pattern: 'dist/bahmni-displaycontrols-commons.js', watched: false},
             {pattern: 'dist/bahmni-config-commons.js', watched: false},
             {pattern: 'dist/bahmni-patient-commons.js', watched: false},
+            {pattern: 'dist/bahmni-uihelper-commons.js', watched: false},
             {pattern: 'test/**/*spec.js', watched: false},
         ],
         reporters: ['junit', 'progress'],

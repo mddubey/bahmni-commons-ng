@@ -63,3 +63,13 @@ Below is the structure of project:
 Right now there are two ways the templates are exposed from module.
 * We can expose the template as part of a directive. E.g. `bahmni-patient-commons/directives/patientSummary.js` defines a directive `patientSummary` which exposes `patientSummary.html` template.
 * The templates can be provided in the `$templateCache` directly. The applications using these should look for these templates from `$templateCache` using the `key`. The `key` used to put the template must be documented. E.g. `ui-helper/init.js` exposes common templates which are used across components.
+
+#### Template Cache by modules
+| Module | Key in TemplateCache | Template Path |
+| ------ | :-------------------:| ------------ |
+| ui-helper | ui-helper-error | ui-helper/error.html |
+| ui-helper | ui-helper-header | ui-helper/header.html |
+| ui-helper | ui-helper-messages | ui-helper/messages.html |
+| ui-helper | ui-helper-save-confirmation | ui-helper/views/saveConfirmation.html |
+
+
