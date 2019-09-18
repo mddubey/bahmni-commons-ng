@@ -72,4 +72,5 @@ Right now there are two ways the templates are exposed from module.
 | ui-helper | ui-helper-messages | ui-helper/messages.html |
 | ui-helper | ui-helper-save-confirmation | ui-helper/views/saveConfirmation.html |
 
-
+### TODO
+* Skipping tests in `test/bahmni-domain-commons/services/programService.spec.js` since `programService` uses `programHelper` very specific to `programs`.   
