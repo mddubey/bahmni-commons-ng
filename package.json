@@ -34,7 +34,7 @@
   "dependencies": {
     "angular": "1.4.9",
     "moment": "2.18.1",
-    "jquery": "1.9.1",
+    "jquery": "3.5.0",
     "@uirouter/angularjs": "0.2.18",
     "ng-clip": "0.2.5",
     "zeroclipboard": "~2.1.0",
